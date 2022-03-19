@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body {
+  background-color: #1b3664;
+}
+
+.flex-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
+  width: 100vw;
+  font: 40px "Indie Flower", cursive; /* thanks to @utku-bilgin for sharing this beautiful font*/
+}
+
+#top,
+#middle,
+#bottom {
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+#top,
+#bottom {
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#top {
+  right: 50px;
+}
+
+#middle {
+  justify-content: space-between;
+}
+
+#bottom {
+  left: 50px;
+}
+
+a {
+  height: 20px;
+  width: 80px;
+  padding: 1em 1.5em;
+  border: 3.5px dashed #0278e0;
+  border-radius: 40px;
+  font: 600 18px "Ubuntu", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 1s;
+}
+
+a:hover {
+  background-color: #0278e0;
+}
+
+#top-arrow,
+#bottom-arrow {
+  width: 75px;
+  position: relative;
+  filter: invert(100%);
+}
+
+#top-arrow {
+  transform: rotate(160deg);
+  top: 20px;
+}
+
+#bottom-arrow {
+  transform: rotate(-20deg);
+  bottom: 20px;
+}

@@ -6,341 +6,528 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resources Index [EN]</title>
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300;400;500&display=swap");
-
-      * {
-        margin: 0;
-        padding: 0;
-        color: white;
-        font: 300 16px "Ubuntu", sans-serif;
-      }
-
-      body {
-        background-color: #0d1727;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: #0278e0;
-      }
-
-      .fs-22 {
-        font-size: 22px;
-      }
-
-      .fs-18 {
-        font-size: 18px;
-      }
-
-      .fs-14 {
-        font-size: 14px;
-      }
-
-      .ls-circle {
-        list-style: circle;
-      }
-
-      .fs-i {
-        font-style: italic;
-      }
-
-      #sidebar-nav {
-        width: 15vw;
-        height: 100%;
-        padding: 10px;
-        border-right: 1px dashed #fff;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        overflow-x: hidden;
-        background-color: #1b3664;
-      }
-
-      .lang-container {
-        height: 20px;
-        margin-bottom: 20px;
-      }
-
-      #lang {
-        float: right;
-      }
-
-      #lang:hover {
-        color: #0278e0;
-      }
-
-      #logo {
-        text-align: center;
-        margin: 2em auto;
-      }
-
-      #sidebar-nav > h2 {
-        margin-bottom: 1em;
-      }
-
-      #nav-links {
-        padding-left: 20px;
-      }
-
-      #nav-links > li {
-        line-height: 2em;
-      }
-
-      /* #nav-links > li > a:hover,
-      #resources-links > li > a:hover {
-        color: #0278e0;
-      } */
-
-      #resources-links > li > a:hover + span {
-        color: greenyellow;
-      }
-
-      #resources-links > li > span {
-        float: right;
-      }
-
-      #main {
-        margin-left: calc(15vw + 41px);
-      }
-
-      .content {
-        line-height: 2em;
-        padding: 90px;
-        padding-right: 270px;
-      }
-
-      /* id = week-1 */
-      .content > h1 {
-        margin-bottom: 2em;
-        font-weight: 500;
-      }
-
-      .content > h2 {
-        line-height: 2em;
-        font-size: 18px;
-      }
-
-      .content > p {
-        margin-top: 2em;
-      }
-
-      .content > ol,
-      .content > ul {
-        margin-top: 2.5em;
-        padding-left: 50px;
-      }
-
-      .content > ol > li,
-      .content > ul > li {
-        line-height: 2em;
-      }
-
-      .icons {
-        width: 24px;
-        filter: invert(100%);
-        position: relative;
-        top: 5px;
-      }
-
-      #submitted-assignments {
-        color: #ff7e00;
-      }
-
-      #submitted-assignments:hover {
-        color: greenyellow;
-      }
-    </style>
+    <!-- CSS file added -->
+    <link rel="stylesheet" href="../css/page.css" />
+    <!-- end CSS file -->
   </head>
   <body>
-    <aside id="sidebar-nav">
-      <div class="lang-container">
-        <a id="lang" class="fs-14" href="./turkish.html">TR</a>
-      </div>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <aside id="sidebar-nav">
+        <div class="lang-container">
+          <span class="mobilebar" id="closebuton"> <- </span>
+          <a id="lang" class="fs-14" href="./turkish.html" title="If you want to see turkish those resources Click this buton">TR</a>
+        </div>
 
-      <h1 id="logo"><a class="fs-18" href="../../index.html">Fullstack Project Group</a></h1>
-      <h2>Index</h2>
-      <ul id="nav-links" class="ls-circle">
-        <li><a href="./english.html#week-1">Week 1</a></li>
-        <li><a href="./english.html#week-2">Week 2</a></li>
-        <li><a href="./english.html#week-3">Week 3</a></li>
-        <li style="margin-left: 15px; list-style-type: disc"><a href="./english.html#git-github">Advanced Git - Github</a></li>
-        <!-- 
-        <li><a href="./english.html#week-4">Week 4</a></li>
-        <li><a href="./english.html#week-5">Week 5</a></li> 
-        -->
-      </ul>
-    </aside>
+        <h1 id="logo">
+          <a class="fs-18" href="../../index.html">Fullstack Project Group</a>
+        </h1>
+        <div class="menu-nav">
+          <h4>Index</h4>
+          <div class="list-item"><a href="./english.html#week-1" title="Week 1 contents">Week 1</a></div>
+          <div class="list-item"><a href="./english.html#week-2" title="Week 2 contents">Week 2</a></div>
+          <div class="list-item"><a href="./english.html#week-3" title="Week 3 React works">Week 3</a></div>
+          <div class="list-item"><a href="./english.html#git-github" title="Week 4 Git and Github using">Week 4</a></div>
+        </div>
+      </aside>
+      <!-- End Sidebar -->
+      <!-- Main -->
+      <section id="main">
+        <span class="mobilebar" id="openbuton"> -> </span>
+        <article id="week-1" class="content">
+          <h1 class="fs-22">Week 1</h1>
+          <h2>
+            <img class="icons" src="../img/book.png" /> &nbsp; Meeting Subjects
+          </h2>
+          <hr />
+          <p>List of topics covered at the meeting.</p>
+          <ol>
+            <li>Introduction to HTML</li>
+            <li>Introduction to CSS</li>
+            <li>Basic Git & Github</li>
+            <li>Basic Javascript</li>
+            <li>Contributing on Github with Pull Requests</li>
+          </ol>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="../../meeting-repositories/week-1/index.html"
+                >{ Meeting Codes: HTML & CSS Fundamentals }
+              </a>
+            </li>
+          </ul>
+          <br />
+          <br />
 
-    <section id="main">
-      <article id="week-1" class="content">
-        <h1 class="fs-22">Week 1</h1>
-        <h2><img class="icons" src="../img/book.png" /> &nbsp; Meeting Subjects</h2>
-        <hr />
-        <p>List of topics covered at the meeting.</p>
-        <ol>
-          <li>Introduction to HTML</li>
-          <li>Introduction to CSS</li>
-          <li>Basic Git & Github</li>
-          <li>Basic Javascript</li>
-          <li>Contributing on Github with Pull Requests</li>
-        </ol>
-        <ul>
-          <li><a target="_blank" href="../../meeting-repositories/week-1/index.html">{ Meeting Codes: HTML & CSS Fundamentals } </a></li>
-        </ul>
-        <br />
-        <br />
+          <h2>
+            <img class="icons" src="../img/click.png" /> &nbsp; Shared Resources
+          </h2>
+          <hr />
+          <p>
+            Various resources shared in and after the live meeting. You may
+            inspect them for further understanding of the subject.
+          </p>
 
-        <h2><img class="icons" src="../img/click.png" /> &nbsp; Shared Resources</h2>
-        <hr />
-        <p>Various resources shared in and after the live meeting. You may inspect them for further understanding of the subject.</p>
+          <ul id="resources-links">
+            <li>
+              <a
+                target="_blank"
+                href="https://reactjs.org/docs/getting-started.html"
+                >[EN] React Documentation</a
+              ><span class="fs-14 fs-i">Emre Samurlu</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/EmreSamurlu/React-Simple-Todo-App"
+                >[TR] Example Project: Todo App with React</a
+              ><span class="fs-14 fs-i">Emre Samurlu</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/elsewhencode/project-guidelines"
+                >[EN] Project Guidelines</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://medium.com/frontend-development-with-js/react-nedir-react-nasıl-çalışır-a19a2a3dbf0a"
+                >[TR] What is React?</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://medium.com/@esmahaber/temel-javascript-notlar%C4%B1-a1635b6db1e7"
+                >[TR] Basic Javascript Notes</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://aliozgur.gitbooks.io/git101/content/bolum_1_-_baslangic/"
+                >[TR] Intro to Git</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://devcenter.heroku.com/"
+                >[EN] Heroku Documentation</a
+              ><span class="fs-14 fs-i">Turgay Turgut Erkal, Soner Şimşek</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+                >[EN] VSCode Keyboard Shortcuts (Windows)</a
+              ><span class="fs-14 fs-i">Emre Samurlu</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://app.patika.dev/moduller/html/emmet-ile-daha-hizli-html-yapilari-olusturmak"
+                >[TR] Patika: Emmet Training</a
+              ><span class="fs-14 fs-i">Taha Kılıç</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="http://www.99lime.com/_bak/topics/you-only-need-10-tags/"
+                >[EN] Commonly used 10 HTML Tags</a
+              ><span class="fs-14 fs-i">Burak Balcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.w3schools.com/css/css_specificity.asp"
+                >[EN] CSS Specificity</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://caniuse.com"
+                >[EN] Can I Use (Browser compatibility checker)</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://rogerdudler.github.io/git-guide/index.html"
+                >[EN] Git Guide</a
+              ><span class="fs-14 fs-i">Oğuz Yürken</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.gitkraken.com/"
+                >[EN] Git Kraken (Git GUI App)</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/MicrosoftDocs/live-share"
+                >[EN] Live Share Documentation</a
+              ><span class="fs-14 fs-i">Turgay Turgut Erkal</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/arslanbilal/git-cheat-sheet"
+                >[EN] Git and Git Flow Cheat Sheet</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/reactdersleri/react-icin-javascript"
+                >[TR] Javascript for React [TR]</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://youtube.com/playlist?list=PL8IHDq7oEkgGuhjVN2_lr1F8bmEgdetXy"
+                >[TR] Javascript Features for React</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://codersclub.co/"
+                >[TR] Codersclub (Analyzing & Rating Platform for Github
+                Profiles)</a
+              ><span class="fs-14 fs-i">Feride Mavigök</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.figma.com/community"
+                >[EN] Figma (UI Design App)</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.figma.com/community/file/1019155319918719973"
+                >[EN] Example: Login Page UI Design</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://lib.yemreak.com/proje-yonetimi/kontrol"
+                >[TR] Project Management</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://youtu.be/0JxhGm8NKYE"
+                >[TR] Github Pages Usage</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+          </ul>
+          <!-- <button id="iframe-button" class="fs-14">Click</button> // page loader-->
+        </article>
 
-        <ul id="resources-links">
-          <li><a target="_blank" href="https://reactjs.org/docs/getting-started.html">[EN] React Documentation</a><span class="fs-14 fs-i">Emre Samurlu</span></li>
-          <li><a target="_blank" href="https://github.com/EmreSamurlu/React-Simple-Todo-App">[TR] Example Project: Todo App with React</a><span class="fs-14 fs-i">Emre Samurlu</span></li>
-          <li><a target="_blank" href="https://github.com/elsewhencode/project-guidelines">[EN] Project Guidelines</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://medium.com/frontend-development-with-js/react-nedir-react-nasıl-çalışır-a19a2a3dbf0a">[TR] What is React?</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://medium.com/@esmahaber/temel-javascript-notlar%C4%B1-a1635b6db1e7">[TR] Basic Javascript Notes</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://aliozgur.gitbooks.io/git101/content/bolum_1_-_baslangic/">[TR] Intro to Git</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://devcenter.heroku.com/">[EN] Heroku Documentation</a><span class="fs-14 fs-i">Turgay Turgut Erkal, Soner Şimşek</span></li>
-          <li><a target="_blank" href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">[EN] VSCode Keyboard Shortcuts (Windows)</a><span class="fs-14 fs-i">Emre Samurlu</span></li>
-          <li><a target="_blank" href="https://app.patika.dev/moduller/html/emmet-ile-daha-hizli-html-yapilari-olusturmak">[TR] Patika: Emmet Training</a><span class="fs-14 fs-i">Taha Kılıç</span></li>
-          <li><a target="_blank" href="http://www.99lime.com/_bak/topics/you-only-need-10-tags/">[EN] Commonly used 10 HTML Tags</a><span class="fs-14 fs-i">Burak Balcı</span></li>
-          <li><a target="_blank" href="https://www.w3schools.com/css/css_specificity.asp">[EN] CSS Specificity</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://caniuse.com">[EN] Can I Use (Browser compatibility checker)</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://rogerdudler.github.io/git-guide/index.html">[EN] Git Guide</a><span class="fs-14 fs-i">Oğuz Yürken</span></li>
-          <li><a target="_blank" href="https://www.gitkraken.com/">[EN] Git Kraken (Git GUI App)</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://github.com/MicrosoftDocs/live-share">[EN] Live Share Documentation</a><span class="fs-14 fs-i">Turgay Turgut Erkal</span></li>
-          <li><a target="_blank" href="https://github.com/arslanbilal/git-cheat-sheet">[EN] Git and Git Flow Cheat Sheet</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://github.com/reactdersleri/react-icin-javascript">[TR] Javascript for React [TR]</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://youtube.com/playlist?list=PL8IHDq7oEkgGuhjVN2_lr1F8bmEgdetXy">[TR] Javascript Features for React</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://codersclub.co/">[TR] Codersclub (Analyzing & Rating Platform for Github Profiles)</a><span class="fs-14 fs-i">Feride Mavigök</span></li>
-          <li><a target="_blank" href="https://www.figma.com/community">[EN] Figma (UI Design App)</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://www.figma.com/community/file/1019155319918719973">[EN] Example: Login Page UI Design</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://lib.yemreak.com/proje-yonetimi/kontrol">[TR] Project Management</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://youtu.be/0JxhGm8NKYE">[TR] Github Pages Usage</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-        </ul>
-        <!-- <button id="iframe-button" class="fs-14">Click</button> // page loader-->
-      </article>
+        <article id="week-2" class="content">
+          <h1 class="fs-22">Week 2</h1>
+          <h2>
+            <img class="icons" src="../img/book.png" /> &nbsp; Meeting Subjects
+          </h2>
+          <hr />
+          <p>List of topics covered at the meeting.</p>
+          <ol>
+            <li>Introduction to Bootstrap</li>
+            <li>Javascript Data Types and Data Structures</li>
+            <li>Javascript Variables</li>
+            <li>Javascript Functions</li>
+            <li>Making a Counter App with Javascript</li>
+          </ol>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="../../meeting-repositories/week-2/index.html"
+                >{ Meeting Codes: JS Counter App }</a
+              >
+            </li>
+          </ul>
+          <br />
+          <br />
+          <h2>
+            <img class="icons" src="../img/click.png" /> &nbsp; Shared Resources
+          </h2>
+          <hr />
+          <p>
+            Various resources shared in and after the live meeting. You may
+            inspect them for further understanding of the subject.
+          </p>
+          <ul id="resources-links">
+            <li>
+              <a target="_blank" href="https://www.freecodecamp.org/learn/"
+                >[EN] freeCodeCamp Trainings</a
+              ><span class="fs-14 fs-i">Emre Samurlu</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://javascript.info/"
+                >[EN] The Modern JavaScript Tutorial</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.w3schools.com/tags/att_script_defer.asp"
+                >[EN] W3Schools: Script defer Attribute</a
+              ><span class="fs-14 fs-i">Oğuz Yürken</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.javascripttutorial.net/javascript-anonymous-functions/"
+                >[EN] JavaScript Anonymous Functions?</a
+              ><span class="fs-14 fs-i">Berkin Alp</span>
+            </li>
+          </ul>
+          <br />
+          <br />
+          <h2>
+            <img class="icons" src="../img/assignment.png" /> &nbsp; Assignment
+          </h2>
+          <hr />
+          <p>
+            Create a color flipper app that will be used to change the
+            background color when clicked. Colors can be picked predefined or
+            random.
+          </p>
+          <br />
+          <a
+            id="submitted-assignments"
+            target="_blank"
+            href="../../assignments/week-2.html"
+            >{ Submitted Assignments }</a
+          >
+        </article>
 
-      <article id="week-2" class="content">
-        <h1 class="fs-22">Week 2</h1>
-        <h2><img class="icons" src="../img/book.png" /> &nbsp; Meeting Subjects</h2>
-        <hr />
-        <p>List of topics covered at the meeting.</p>
-        <ol>
-          <li>Introduction to Bootstrap</li>
-          <li>Javascript Data Types and Data Structures</li>
-          <li>Javascript Variables</li>
-          <li>Javascript Functions</li>
-          <li>Making a Counter App with Javascript</li>
-        </ol>
-        <ul>
-          <li><a target="_blank" href="../../meeting-repositories/week-2/index.html">{ Meeting Codes: JS Counter App }</a></li>
-        </ul>
-        <br />
-        <br />
-        <h2><img class="icons" src="../img/click.png" /> &nbsp; Shared Resources</h2>
-        <hr />
-        <p>Various resources shared in and after the live meeting. You may inspect them for further understanding of the subject.</p>
-        <ul id="resources-links">
-          <li><a target="_blank" href="https://www.freecodecamp.org/learn/">[EN] freeCodeCamp Trainings</a><span class="fs-14 fs-i">Emre Samurlu</span></li>
-          <li><a target="_blank" href="https://javascript.info/">[EN] The Modern JavaScript Tutorial</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://www.w3schools.com/tags/att_script_defer.asp">[EN] W3Schools: Script defer Attribute</a><span class="fs-14 fs-i">Oğuz Yürken</span></li>
-          <li><a target="_blank" href="https://www.javascripttutorial.net/javascript-anonymous-functions/">[EN] JavaScript Anonymous Functions?</a><span class="fs-14 fs-i">Berkin Alp</span></li>
-        </ul>
-        <br />
-        <br />
-        <h2><img class="icons" src="../img/assignment.png" /> &nbsp; Assignment</h2>
-        <hr />
-        <p>Create a color flipper app that will be used to change the background color when clicked. Colors can be picked predefined or random.</p>
-        <br />
-        <a id="submitted-assignments" target="_blank" href="../../assignments/week-2.html">{ Submitted Assignments }</a>
-      </article>
+        <article id="week-3" class="content">
+          <h1 class="fs-22">Week 3</h1>
+          <h2>
+            <img class="icons" src="../img/book.png" /> &nbsp; Meeting Subjects
+          </h2>
+          <hr />
+          <p>List of topics covered at the meeting.</p>
+          <ol>
+            <li>React Installation</li>
+            <li>Dependencies</li>
+            <li>Rendering</li>
+            <li>Components and Props</li>
+            <li>State and Lifecycle</li>
+            <li>Tailwind (CSS Framework)</li>
+          </ol>
+          <ul>
+            <li>
+              <a target="_blank" href="../../meeting-repositories/week-3/"
+                >{ Meeting Codes: Color Flipper App with React }</a
+              >
+            </li>
+          </ul>
+          <br />
+          <br />
+          <h2>
+            <img class="icons" src="../img/click.png" /> &nbsp; Shared Resources
+          </h2>
+          <hr />
+          <p>
+            Various resources shared in and after the live meeting. You may
+            inspect them for further understanding of the subject.
+          </p>
+          <ul id="resources-links">
+            <li>
+              <a
+                target="_blank"
+                href="https://reactjs.org/docs/getting-started.html"
+                >[EN] React Documentation</a
+              ><span class="fs-14 fs-i">Emre Samurlu</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://tailwindcss.com/docs/installation"
+                >[EN] Tailwind Documentation</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=bMknfKXIFA8"
+                >[EN] Beginner React Tutorial</a
+              ><span class="fs-14 fs-i">Feride Mavigök</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/learn/front-end-development-libraries/#react"
+                >[EN] freeCodeCamp React Course</a
+              ><span class="fs-14 fs-i">Eralp Özcan</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=b9eMGE7QtTk"
+                >[EN] Build an App with React</a
+              ><span class="fs-14 fs-i">Soner Şimşek</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://openweathermap.org/current"
+                >[EN] OpenWeather API Documentation</a
+              ><span class="fs-14 fs-i">Emre Samurlu</span>
+            </li>
+          </ul>
+          <br />
+          <br />
+          <h2>
+            <img class="icons" src="../img/assignment.png" /> &nbsp; Assignment
+          </h2>
+          <hr />
+          <p>
+            Create a weather app with the API of
+            <a href="openweathermap.org">openweathermap.org</a>. The app must
+            show the current time and daily or weekly weather data. You need to
+            sign up to OpenWeather and fetch your unique API key.
+          </p>
+          <br />
+          <a
+            id="submitted-assignments"
+            target="_blank"
+            href="../../assignments/week-3.html"
+            >{ Submitted Assignments }</a
+          >
+        </article>
 
-      <article id="week-3" class="content">
-        <h1 class="fs-22">Week 3</h1>
-        <h2><img class="icons" src="../img/book.png" /> &nbsp; Meeting Subjects</h2>
-        <hr />
-        <p>List of topics covered at the meeting.</p>
-        <ol>
-          <li>React Installation</li>
-          <li>Dependencies</li>
-          <li>Rendering</li>
-          <li>Components and Props</li>
-          <li>State and Lifecycle</li>
-          <li>Tailwind (CSS Framework)</li>
-        </ol>
-        <ul>
-          <li><a target="_blank" href="../../meeting-repositories/week-3/">{ Meeting Codes: Color Flipper App with React }</a></li>
-        </ul>
-        <br />
-        <br />
-        <h2><img class="icons" src="../img/click.png" /> &nbsp; Shared Resources</h2>
-        <hr />
-        <p>Various resources shared in and after the live meeting. You may inspect them for further understanding of the subject.</p>
-        <ul id="resources-links">
-          <li><a target="_blank" href="https://reactjs.org/docs/getting-started.html">[EN] React Documentation</a><span class="fs-14 fs-i">Emre Samurlu</span></li>
-          <li><a target="_blank" href="https://tailwindcss.com/docs/installation">[EN] Tailwind Documentation</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=bMknfKXIFA8">[EN] Beginner React Tutorial</a><span class="fs-14 fs-i">Feride Mavigök</span></li>
-          <li><a target="_blank" href="https://www.freecodecamp.org/learn/front-end-development-libraries/#react">[EN] freeCodeCamp React Course</a><span class="fs-14 fs-i">Eralp Özcan</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=b9eMGE7QtTk">[EN] Build an App with React</a><span class="fs-14 fs-i">Soner Şimşek</span></li>
-          <li><a target="_blank" href="https://openweathermap.org/current">[EN] OpenWeather API Documentation</a><span class="fs-14 fs-i">Emre Samurlu</span></li>
-        </ul>
-        <br />
-        <br />
-        <h2><img class="icons" src="../img/assignment.png" /> &nbsp; Assignment</h2>
-        <hr />
-        <p>Create a weather app with the API of <a href="openweathermap.org">openweathermap.org</a>. The app must show the current time and daily or weekly weather data. You need to sign up to OpenWeather and fetch your unique API key.</p>
-        <br />
-        <a id="submitted-assignments" target="_blank" href="../../assignments/week-3.html">{ Submitted Assignments }</a>
-      </article>
-
-      <article id="git-github" class="content">
-        <h1 class="fs-22">Git - Github</h1>
-        <h2><img class="icons" src="../img/book.png" /> &nbsp; Meeting Subjects</h2>
-        <hr />
-        <p>List of topics covered at the meeting.</p>
-        <ol>
-          <li>Code Hosting Platforms (Github, Gitlab, Bitbucket)</li>
-          <li>Software Development Life Cycle</li>
-          <li>Basic Project Management</li>
-          <li>Waterfall Model</li>
-          <li>Agile Model (Agile Development)</li>
-          <li>Methods and Visualization (Scrum, Kanban)</li>
-          <li>Git Branching</li>
-          <li>Working Tree</li>
-          <li>Workflows (Git Flow, Github Flow)</li>
-          <li>Git Commands & Flags(remote, fetch, pull, merge, push)</li>
-          <li>Interfaces and Tools (CLI & GUI)</li>
-        </ol>
-        <br />
-        <br />
-        <h2><img class="icons" src="../img/click.png" /> &nbsp; Shared Resources</h2>
-        <hr />
-        <p>Various resources shared in and after the live meeting. You may inspect them for further understanding of the subject.</p>
-        <ul id="resources-links">
-          <li><a target="_blank" href="https://git-scm.com/docs">[EN] Git Documentation</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=e2IbNHi4uCI">[EN] Git Branches Tutorial</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=Uszj_k0DGsg">[EN] Git for Professionals</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=qsTthZi23VE">[EN] Advanced Git Tutorial</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=HrA_BbWUKRk">[EN] Understanding Git Flow</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=CAP7ZSryvE8">[EN] Basic Collaboration with Git</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=aW9TS5xFFdc">[EN] Git Merge and Rebase</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=GN36mrrM12k">[EN] Git Detached HEAD</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=nHv3-VtiP38&list=PLh9ECzBB8tJOmOydGaV7xr9h13ooEjBkV&index=28">[TR] Agile Development Methods (28th - 31st Videos)</a><span class="fs-14 fs-i">Hasan Umut Yağcı</span></li>
-          <li><a target="_blank" href="http://fehmicansaglam.net/git-flow-bir-gelistirme-surecinin-anatomisi">[TR] Git Flow Tutorial</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://medium.com/software-development-turkey/git-flow-kullan%C4%B1m%C4%B1-ve-branch-y%C3%B6netimi-3a66a6106ddc">[TR] Usage of Git Flow and Branch Management</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://danielkummer.github.io/git-flow-cheatsheet/index.tr_TR.html">[TR] Git Flow Cheat Sheet</a><span class="fs-14 fs-i">Ziar Parvaiz</span></li>
-          <li><a target="_blank" href="https://education.github.com/pack">[EN] Github Development Pack for Students</a><span class="fs-14 fs-i">Kazım Anıl Aydın</span></li>
-          <li><a target="_blank" href="../res/cevik-yazilim.pdf">[TR] Agile Development Book (PDF) </a><span class="fs-14 fs-i">Feride Mavigök</span></li>
-        </ul>
-      </article>
-    </section>
+        <article id="git-github" class="content">
+          <h1 class="fs-22">Git - Github</h1>
+          <h2>
+            <img class="icons" src="../img/book.png" /> &nbsp; Meeting Subjects
+          </h2>
+          <hr />
+          <p>List of topics covered at the meeting.</p>
+          <ol>
+            <li>Code Hosting Platforms (Github, Gitlab, Bitbucket)</li>
+            <li>Software Development Life Cycle</li>
+            <li>Basic Project Management</li>
+            <li>Waterfall Model</li>
+            <li>Agile Model (Agile Development)</li>
+            <li>Methods and Visualization (Scrum, Kanban)</li>
+            <li>Git Branching</li>
+            <li>Working Tree</li>
+            <li>Workflows (Git Flow, Github Flow)</li>
+            <li>Git Commands & Flags(remote, fetch, pull, merge, push)</li>
+            <li>Interfaces and Tools (CLI & GUI)</li>
+          </ol>
+          <br />
+          <br />
+          <h2>
+            <img class="icons" src="../img/click.png" /> &nbsp; Shared Resources
+          </h2>
+          <hr />
+          <p>
+            Various resources shared in and after the live meeting. You may
+            inspect them for further understanding of the subject.
+          </p>
+          <ul id="resources-links">
+            <li>
+              <a target="_blank" href="https://git-scm.com/docs"
+                >[EN] Git Documentation</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=e2IbNHi4uCI"
+                >[EN] Git Branches Tutorial</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=Uszj_k0DGsg"
+                >[EN] Git for Professionals</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=qsTthZi23VE"
+                >[EN] Advanced Git Tutorial</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=HrA_BbWUKRk"
+                >[EN] Understanding Git Flow</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=CAP7ZSryvE8"
+                >[EN] Basic Collaboration with Git</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=aW9TS5xFFdc"
+                >[EN] Git Merge and Rebase</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=GN36mrrM12k"
+                >[EN] Git Detached HEAD</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=nHv3-VtiP38&list=PLh9ECzBB8tJOmOydGaV7xr9h13ooEjBkV&index=28"
+                >[TR] Agile Development Methods (28th - 31st Videos)</a
+              ><span class="fs-14 fs-i">Hasan Umut Yağcı</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="http://fehmicansaglam.net/git-flow-bir-gelistirme-surecinin-anatomisi"
+                >[TR] Git Flow Tutorial</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://medium.com/software-development-turkey/git-flow-kullan%C4%B1m%C4%B1-ve-branch-y%C3%B6netimi-3a66a6106ddc"
+                >[TR] Usage of Git Flow and Branch Management</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://danielkummer.github.io/git-flow-cheatsheet/index.tr_TR.html"
+                >[TR] Git Flow Cheat Sheet</a
+              ><span class="fs-14 fs-i">Ziar Parvaiz</span>
+            </li>
+            <li>
+              <a target="_blank" href="https://education.github.com/pack"
+                >[EN] Github Development Pack for Students</a
+              ><span class="fs-14 fs-i">Kazım Anıl Aydın</span>
+            </li>
+            <li>
+              <a target="_blank" href="../res/cevik-yazilim.pdf"
+                >[TR] Agile Development Book (PDF) </a
+              ><span class="fs-14 fs-i">Feride Mavigök</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <!-- End Main -->
+    </div>
+    <!-- End Wrapper -->
     <!-- <script>
       let iframeButton = document.querySelector("#iframe-button");
       iframeButton.addEventListener("click", changeContent);
@@ -349,5 +536,8 @@
         document.querySelector("#main").innerHTML = `<iframe src="../week-1/index.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>`;
       }
     </script> -->
+
+    <!-- Add Javascript -->
+    <script src="../js/index.js"></script>
   </body>
 </html>

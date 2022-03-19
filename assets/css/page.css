@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300;400;500&display=swap");
+
+body {
+  background-color: #0d1727;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  font-family: monospace;
+}
+* {
+  color:#ffffff;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  border-top: 10px solid brown;
+}
+#sidebar-nav {
+  width: 20%;
+  height: 100%;
+  border-right: 1px dashed #fff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  background-color: #1b3664;
+}
+.menu-nav{
+  text-align: center;
+}
+.list-item{
+  background-color: #0d1727;
+  margin-top: 3px;
+  padding:3px;
+}
+#main {
+  width: 80%;
+  margin-top: 3px;
+}
+.content{
+  width: 60%;
+  float: right;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0278e0;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-14 {
+  font-size: 14px;
+  background-color: #0d1727;
+  padding: 8px 4px;
+}
+.fs-14:hover {
+  color: brown !important;
+}
+
+.ls-circle {
+  list-style: circle;
+}
+
+.fs-i {
+  font-style: italic;
+}
+
+.lang-container {
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+#lang {
+  float: right;
+}
+
+#lang:hover {
+  color: #0278e0;
+}
+
+#logo {
+  text-align: center;
+  margin: 2em auto;
+  background-color: brown;
+  padding:4px 2px;
+}
+
+#resources-links > li > a:hover + span {
+  color: greenyellow;
+}
+
+#resources-links > li > span {
+  float: right;
+}
+
+/* id = week-1 */
+.content > h1 {
+  margin-bottom: 2em;
+  font-weight: 500;
+}
+
+.content > h2 {
+  line-height: 2em;
+  font-size: 18px;
+}
+
+.content > p {
+  margin-top: 2em;
+}
+
+.content > ol,
+.content > ul {
+  margin-top: 2.5em;
+}
+
+.content > ol > li,
+.content > ul > li {
+  line-height: 2em;
+}
+
+.icons {
+  width: 24px;
+  filter: invert(100%);
+  position: relative;
+  top: 5px;
+}
+
+#submitted-assignments {
+  color: #ff7e00;
+}
+
+#submitted-assignments:hover {
+  color: greenyellow;
+}
+@media only screen and (min-width: 800px) {
+  #sidebar-nav{
+    width: 15%;
+  }
+}
+.mobilebar{
+  padding:4px;
+  font-size:24px;
+  background-color: #0d1727;
+  cursor: pointer;
+}
+#openbuton{
+  background-color: #1b3664;
+}
