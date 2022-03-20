@@ -15,11 +15,11 @@ body {
 .wrapper {
   width: 100%;
   height: auto;
-  border-top: 10px solid brown;
 }
 #sidebar-nav {
   width: 20%;
   height: 100%;
+  padding:4px 0;
   border-right: 1px dashed #fff;
   position: fixed;
   z-index: 1;
@@ -27,18 +27,20 @@ body {
   left: 0;
   overflow-x: hidden;
   background-color: #1b3664;
+  transition: 0.5s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
 }
 .menu-nav{
   text-align: center;
 }
 .list-item{
-  background-color: #0d1727;
   margin-top: 3px;
   padding:3px;
+  text-decoration: underline;
 }
 #main {
   width: 80%;
-  margin-top: 3px;
 }
 .content{
   width: 60%;
