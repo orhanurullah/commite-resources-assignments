@@ -62,6 +62,9 @@ a:hover {
 .fs-18 {
   font-size: 18px;
 }
+.fs-18:hover{
+  color:white !important;
+}
 
 .fs-14 {
   font-size: 14px;
@@ -69,7 +72,7 @@ a:hover {
   padding: 8px 4px;
 }
 .fs-14:hover {
-  color: brown !important;
+  color: #ff7e00 !important;
 }
 
 .ls-circle {
@@ -96,7 +99,7 @@ a:hover {
 #logo {
   text-align: center;
   margin: 2em auto;
-  background-color: brown;
+  background-color: #ff7e00;
   padding:4px 2px;
 }
 
@@ -160,4 +163,6 @@ a:hover {
 }
 #openbuton{
   background-color: #1b3664;
+  position: fixed;
+  top: 0;
 }

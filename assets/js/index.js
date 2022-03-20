@@ -24,3 +24,6 @@ openButon.addEventListener('click', () => {
     sidebar.style.width = "15%";
     sidebar.style.zIndex = 1;
 });
+
+const height = window.innerHeight * (window.innerHeight / document.body.offsetHeight);
+console.log(height);
