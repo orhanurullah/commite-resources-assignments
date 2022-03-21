@@ -4,7 +4,7 @@ const container = document.querySelector('#container');
 
 /** WEEKS DATAS */
 const weeks = [
-    /** WEEK - 1 WRITE YOUR INFO*/
+    /** WEEK - 1 | WRITE YOUR INFO FOR FIRST WEEK*/
     [
         {
             "id":1,
@@ -61,128 +61,109 @@ const weeks = [
             "description":"A weather app with react"
         }
     ],
-    /** WEEK - 2 */
+    /** WEEK - 2 | WRITE YOUR INFO FOR SECOND WEEK */
     [
-        {
+     {
             "id":1,
-            "name":"Orhan Nurullah KILIÇ",
-            "username":"@orhanurullah",
+            "name":"Berkin Alp",
+            "username":"@berkinalpp",
             "projectName":"Weather APP",
-            "repository":"https://github.com/orhanurullah/weather-app",
-            "deployment":"aa",
-            "description":"A Acayip app with react"
+            "repository":"https://github.com/berkinalpp/vanilla-js-projects/tree/master/js-color-flipper",
+            "deployment":"",
+            "description":"A weather app with react"
         },
         {
             "id":2,
-            "name":"Turgay Turgut Erkal",
+            "name":"Turgay T Erkal",
             "username":"@Turgay044",
             "projectName":"My Weather APP",
-            "repository":"https://github.com/Turgay044/weather-app",
+            "repository":"https://github.com/Turgay044/JavaScript/tree/main/FullStack-Project-Group/Colour%20Flipper",
             "deployment":"",
             "description":"A weather app with react"
         },
         {
-            "id":1,
-            "name":"Orhan Nurullah",
-            "username":"@orhanurullah",
-            "projectName":"MY APP",
-            "repository":"https://github.com/orhanurullah/weather-app",
+            "id":3,
+            "name":"Mehmet Maytahan",
+            "username":"@MehmetMaytahan",
+            "projectName":"Mehmet WEATHER APP",
+            "repository":"https://github.com/MehmetMaytahan/color-flipper",
             "deployment":"",
             "description":"A weather app with react"
         },
         {
-            "id":2,
-            "name":"Turgay Turgut Erkal",
-            "username":"@Turgay044",
-            "projectName":"THE WEATHER APP",
-            "repository":"https://github.com/Turgay044/weather-app",
-            "deployment":"",
+            "id":4,
+            "name":"Ümit Sarısu",
+            "username":"@umitsarisu",
+            "projectName":"THE UMIT WEATHER APP",
+            "repository":"https://github.com/umitsarisu/rgb-color-flipper",
+            "deployment":"https://umitsarisu.github.io/rgb-color-flipper/",
             "description":"A weather app with react"
         },
         {
-            "id":1,
-            "name":"Orhan Nurullah",
-            "username":"@orhanurullah",
-            "projectName":"Weather Aplication",
-            "repository":"https://github.com/orhanurullah/weather-app",
-            "deployment":"",
+            "id":5,
+            "name":"Yunus Ünal",
+            "username":"@unalyunus",
+            "projectName":"Weather UNAL Aplication",
+            "repository":"https://github.com/unalyunus/unalyunus.github.io",
+            "deployment":"https://unalyunus.github.io/Color-Flipper/",
             "description":"A weather app with react"
         },
         {
-            "id":2,
-            "name":"Turgay Turgut Erkal",
-            "username":"@Turgay044",
-            "projectName":"Great Weather App",
-            "repository":"https://github.com/Turgay044/weather-app",
-            "deployment":"",
+            "id":6,
+            "name":"Soner Şimşek",
+            "username":"@sonersimsekdev",
+            "projectName":"Great SONER Weather App",
+            "repository":"https://github.com/sonersimsekdev/color-flipper-vanillajs",
+            "deployment":"https://sonersimsekdev.github.io/color-flipper-vanillajs/",
+            "description":"A weather app with react"
+        },
+        {
+            "id":7,
+            "name":"Utku Bilgin",
+            "username":"@utku-bilgin",
+            "projectName":"Great UTKU Weather App",
+            "repository":"https://github.com/utku-bilgin/colorflipper",
+            "deployment":"https://utku-bilgin.github.io/colorflipper/",
             "description":"A weather app with react"
         }
     ],
-    /** WEEK - 3 */
+    /** WEEK - 3 | WRITE YOUR INFO FOR THIRD WEEK*/
     [
         {
             "id":1,
-            "name":"Orhan Nurullah",
-            "username":"@orhanurullah",
-            "projectName":"Weather APP",
-            "repository":"https://github.com/orhanurullah/weather-app",
-            "deployment":"aa",
+            "name":"Furkan Keskinkılıç",
+            "username":"@frknksknklc",
+            "projectName":"Weather FURKAN APP",
+            "repository":"https://github.com/frknksknklc/Weather-App",
+            "deployment":"https://furkan-weather-app-nodejs.herokuapp.com/",
             "description":"A weather app with react"
         },
         {
             "id":2,
-            "name":"Turgay Turgut E",
-            "username":"@Turgay044",
-            "projectName":"My Weather APP",
-            "repository":"https://github.com/Turgay044/weather-app",
-            "deployment":"",
+            "name":"Serkan Çağman",
+            "username":"@serkancagman",
+            "projectName":"SERKAN Weather APP",
+            "repository":"https://github.com/serkancagman/weather-app-react",
+            "deployment":"https://weather-app-in-reactjs.netlify.app/",
             "description":"A weather app with react"
         },
         {
-            "id":1,
-            "name":"Orhan Nurullah",
-            "username":"@orhanurullah",
-            "projectName":"MY APP",
-            "repository":"https://github.com/orhanurullah/weather-app",
-            "deployment":"",
+            "id":3,
+            "name":"Volkan Karaali",
+            "username":"@volkankaraali",
+            "projectName":"WEATHER VOLKAN APP",
+            "repository":"https://github.com/volkankaraali/react-context-weather-app",
+            "deployment":"https://react-weather-app-context.netlify.app/",
             "description":"A weather app with react"
         },
-        {
-            "id":2,
-            "name":"Turgay Turgut Erkal",
-            "username":"@Turgay044",
-            "projectName":"THE WEATHER APP",
-            "repository":"https://github.com/Turgay044/weather-app",
-            "deployment":"",
-            "description":"A weather app with react"
-        },
-        {
-            "id":1,
-            "name":"Orhan Nurullah",
-            "username":"@orhanurullah",
-            "projectName":"Weather Aplication",
-            "repository":"https://github.com/orhanurullah/weather-app",
-            "deployment":"",
-            "description":"A weather app with react"
-        },
-        {
-            "id":2,
-            "name":"Turgay Turgut Erkal",
-            "username":"@Turgay044",
-            "projectName":"Great Weather App",
-            "repository":"https://github.com/Turgay044/weather-app",
-            "deployment":"",
-            "description":"A weather app with react"
-        }
     ]
 ]
 /**
  * Parser Method load(data)
  * data is equal number of weeks
  */
-const load = (data) => {
-    let week = data;
-    let length = weeks[0].length;
+const load = (week) => {
+    let length = weeks[week].length;
     for(let i = 0; i < length; i++){
         // CREATE CARD
         const card = document.createElement('div');
