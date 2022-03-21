@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: monospace;
+    background-color: darkslategrey;
+}
+.container{
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+#container{
+    width: 100%;
+    margin: auto;
+}
+.card{
+    min-width: 20em;
+    max-width: 28em;
+}
+.link-box{
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid brown;
+    padding:8px 0 0 0;
+}
+.card-header{
+    background-color: lightgrey;
+    font-size:24px;
+}
