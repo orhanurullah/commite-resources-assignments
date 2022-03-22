@@ -2,13 +2,16 @@
 const weekSelection = document.querySelector('#weeks');
 const container = document.querySelector('#container');
 
-/** WEEKS DATAS */
+/** WEEKS DATAS 
+ * datas of week-1 are fake datas
+ * 2nd week and 3rd week data are taken from ready-made pages
+*/
 const weeks = [
     /** WEEK - 1 | WRITE YOUR INFO FOR FIRST WEEK*/
     [
         {
             "id":1,
-            "name":"Orhan N",
+            "name":"Orhan Nurullah",
             "username":"@orhanurullah",
             "projectName":"Weather APP",
             "repository":"https://github.com/orhanurullah/weather-app",
